@@ -2,7 +2,11 @@
 title: "about"
 author: "Yiying Wu"
 date: "2023-10-19"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
 
 ```{r setup, include=FALSE}
